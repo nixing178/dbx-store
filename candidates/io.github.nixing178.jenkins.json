@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.nixing178.jenkins",
+  "publisher": "nixing178",
+  "version": "0.7.5",
+  "releaseNotes": "Console log list with line numbers, ANSI colours, problems-only filter, search with match navigation, fullscreen and per-line copy. Adds a build executor panel and in-app confirmation dialogs for stop/cancel, and fixes log area clipping and scroll-to-bottom.",
+  "targets": [
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/nixing178/dbx-plugin-jenkins/releases/download/v0.7.5/io.github.nixing178.jenkins-0.7.5-windows-x64.dbxp",
+      "sha256": "414a4d2a06e9e37a6f5362c3ac5c8f1d59d7bbc40f00a862ad853ff2d94be551",
+      "size": 4962258
+    }
+  ]
+}
