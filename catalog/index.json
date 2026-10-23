@@ -2814,6 +2814,48 @@
       }
     },
     {
+      "id": "dev.maledb.mahjong",
+      "name": "MaLeDB · Mahjong",
+      "description": "Four-player Chinese Mahjong with local computer opponents, fan scoring, a celadon table, sounds, hints and saved games.",
+      "publisher": "yuwengueen",
+      "verified": false,
+      "icon": "https://dl.dbxio.com/plugins/dev.maledb.mahjong/0.1.0/icon.svg",
+      "tags": [
+        "games",
+        "mahjong",
+        "offline"
+      ],
+      "permissions": [
+        "host.storage"
+      ],
+      "source": "https://github.com/yuwenGueen/dbx-maledb/tree/v0.1.0",
+      "homepage": "https://github.com/yuwenGueen/dbx-maledb",
+      "license": "Apache-2.0",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "releasedAt": "2026-10-23T03:43:53.606Z",
+          "releaseNotes": "Initial store candidate: one human and three local computer players, chi/peng/kong/hu, native fan scoring, flowers, hints, auto-play, sounds, pause and saved games. macOS Apple Silicon; Simplified Chinese UI. Fixed room rules are documented in the source README.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/dev.maledb.mahjong/0.1.0/dev.maledb.mahjong-0.1.0-darwin-arm64.dbxp",
+              "sha256": "91931a5d77d94fcfa861daa9dd3dfee600f9008a1f8edc1f26b187180146f571",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 6489589
+            }
+          ]
+        }
+      ],
+      "localizations": {
+        "zh-CN": {
+          "name": "麻了DB",
+          "description": "写麻了？摸两张。青瓷牌桌、三位电脑牌友，支持吃碰杠胡、番型计分、音效动效、提示托管与本地续局。"
+        }
+      }
+    },
+    {
       "id": "digitalzhao.mybatis_sql_dbx_plugin",
       "name": "MyBatis SQL Generator",
       "description": "Render directly executable SQL from MyBatis mapper XML and input parameters, producing Oracle / SQL Server dialect literals.",
@@ -10814,6 +10856,152 @@
         "zh-CN": {
           "name": "Code Editor",
           "description": "在 DBX 中浏览、搜索和编辑本地项目文件。"
+        }
+      }
+    },
+    {
+      "id": "io.github.yuzhi.modbus",
+      "name": "Modbus TCP",
+      "description": "Read and write Modbus TCP registers on PLCs, gateways and remote IO couplers, with polling and guarded writes.",
+      "publisher": "yuzhi",
+      "verified": false,
+      "icon": "https://dl.dbxio.com/plugins/io.github.yuzhi.modbus/0.1.0/icon.svg",
+      "tags": [
+        "modbus",
+        "modbus-tcp",
+        "plc",
+        "industrial",
+        "iot",
+        "scada"
+      ],
+      "permissions": [
+        "host.storage"
+      ],
+      "source": "https://github.com/bobocha214/dbx-plugin-modbus",
+      "homepage": "https://github.com/bobocha214/dbx-plugin-modbus",
+      "license": "MIT",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "releasedAt": "2026-10-23T03:51:23.615Z",
+          "releaseNotes": "Initial release: Modbus TCP connection provider, register grid workbench with periodic polling, byte order and data type decoding, and guarded writes.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.modbus/0.1.0/io.github.yuzhi.modbus-0.1.0-darwin-arm64.dbxp",
+              "sha256": "dcb5da9280c150c0510b39a50e5fc046761cd4d7d0082bd9ba408a9559ed9707",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 316261
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.modbus/0.1.0/io.github.yuzhi.modbus-0.1.0-darwin-x64.dbxp",
+              "sha256": "da7c749eb20efb747eaf16f5814ee594210c5fa9611ee5a7335e022809582692",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 337564
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.modbus/0.1.0/io.github.yuzhi.modbus-0.1.0-linux-arm64.dbxp",
+              "sha256": "36dcc661d9938cf1e534e2a8ba1d8de7ce3abf1ee35e52fe6b2399de0b66ad35",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 339235
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.modbus/0.1.0/io.github.yuzhi.modbus-0.1.0-linux-x64.dbxp",
+              "sha256": "43e79856f7e5d0e0fa6f2b57e1e00b07b7aebd96e9360448f763af6b0d3bf62d",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 360141
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.modbus/0.1.0/io.github.yuzhi.modbus-0.1.0-windows-x64.dbxp",
+              "sha256": "5e139c0803367f3f54366ec88b826ff90b02e24312414c95c068775b4d5a1501",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 261020
+            }
+          ]
+        }
+      ],
+      "localizations": {
+        "zh-CN": {
+          "name": "Modbus TCP",
+          "description": "读写 PLC、网关和远程 IO 上的 Modbus TCP 寄存器，支持周期轮询与带二次确认的写入。"
+        }
+      }
+    },
+    {
+      "id": "io.github.yuzhi.opcua",
+      "name": "OPC UA",
+      "description": "Browse the OPC UA address space of PLCs and servers, then read and write node values.",
+      "publisher": "yuzhi",
+      "verified": false,
+      "icon": "https://dl.dbxio.com/plugins/io.github.yuzhi.opcua/0.1.0/icon.svg",
+      "tags": [
+        "opcua",
+        "industrial",
+        "plc",
+        "iiot",
+        "automation"
+      ],
+      "permissions": [
+        "host.connections:read",
+        "host.workbench"
+      ],
+      "source": "https://github.com/bobocha214/dbx-plugin-opcua/tree/v0.1.0",
+      "homepage": "https://github.com/bobocha214/dbx-plugin-opcua",
+      "license": "Apache-2.0",
+      "latestVersion": "0.1.0",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "releasedAt": "2026-10-23T03:51:23.623Z",
+          "releaseNotes": "Initial release: connect to an OPC UA server, browse the address space, read node values, and write scalar values.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.opcua/0.1.0/io.github.yuzhi.opcua-0.1.0-darwin-arm64.dbxp",
+              "sha256": "b3d21aa278397461a16bc4058205cab38c1035cee088af00079b2b034edbba0d",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2376329
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.opcua/0.1.0/io.github.yuzhi.opcua-0.1.0-darwin-x64.dbxp",
+              "sha256": "e3102ec13cbf0494290367b29dcbadcf14f958436f79abf3628e17276897f5f3",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2501501
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.opcua/0.1.0/io.github.yuzhi.opcua-0.1.0-linux-arm64.dbxp",
+              "sha256": "0609c4323063acda97a7117a3015469a4a5a1ad28c0762aa45192d517dc6b15a",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2512017
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.opcua/0.1.0/io.github.yuzhi.opcua-0.1.0-linux-x64.dbxp",
+              "sha256": "a81217535a5d2d320523c5020e6bb6c02acf8d794c3f575270ac569afc154e83",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2627570
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.yuzhi.opcua/0.1.0/io.github.yuzhi.opcua-0.1.0-windows-x64.dbxp",
+              "sha256": "fc883341f00fcfd4033aa686dcb582dd5750e4e921aa2a8de3a83c279744f2e9",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2640099
+            }
+          ]
+        }
+      ],
+      "localizations": {
+        "zh-CN": {
+          "name": "OPC UA",
+          "description": "连接 OPC UA 服务器 / PLC，浏览地址空间，读取与写入节点值，并可将点位加入监视列表持续观察与就地改写下发。"
         }
       }
     },
