@@ -20,7 +20,7 @@
   "source": "https://github.com/nixing178/dbx-plugin-jenkins/tree/v0.3.0",
   "homepage": "https://github.com/nixing178/dbx-plugin-jenkins",
   "license": "Apache-2.0",
-  "latestVersion": "0.7.5",
+  "latestVersion": "0.10.0",
   "versions": [
     {
       "version": "0.3.0",
@@ -47,6 +47,20 @@
           "sha256": "e73f1529e6e844c80333c7895e7020c1b80daeb2b820dd4a0d4ea7838fbe937f",
           "signingKeyId": "dbx-store-release-2026",
           "size": 4962915
+        }
+      ]
+    },
+    {
+      "version": "0.10.0",
+      "releasedAt": "2026-10-26T06:42:49.366Z",
+      "releaseNotes": "Batch build up to 50 jobs at once: pre-flight status check, shared Boolean parameters, per-batch retry of failures and a skip-busy option. Adds two-tier auto refresh on the overview page and mouse back/forward buttons for in-app navigation, plus a fix for log area clipping.",
+      "artifacts": [
+        {
+          "target": "windows-x64",
+          "url": "https://dl.dbxio.com/plugins/io.github.nixing178.jenkins/0.10.0/io.github.nixing178.jenkins-0.10.0-windows-x64.dbxp",
+          "sha256": "1a34be476a012b0ba11a22fe3bf51436d01231630dbe582fb78edfb7da2ca892",
+          "signingKeyId": "dbx-store-release-2026",
+          "size": 4989475
         }
       ]
     }
