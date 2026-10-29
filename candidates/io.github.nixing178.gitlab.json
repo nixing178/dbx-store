@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.nixing178.gitlab",
+  "publisher": "nixing178",
+  "version": "0.2.3",
+  "name": "GitLab Console",
+  "description": "Browse projects and code, review merge requests, watch pipelines and handle issues inside DBX.",
+  "icon": "https://raw.githubusercontent.com/nixing178/dbx-plugin-gitlab/v0.2.3/assets/plugin.svg",
+  "tags": [
+    "gitlab",
+    "code-review",
+    "merge-requests",
+    "pipelines",
+    "issues"
+  ],
+  "permissions": [
+    "host.workbench",
+    "host.events"
+  ],
+  "source": "https://github.com/nixing178/dbx-plugin-gitlab/tree/v0.2.3",
+  "homepage": "https://github.com/nixing178/dbx-plugin-gitlab",
+  "license": "Apache-2.0",
+  "releaseNotes": "Add branch creation, project pinning, commit filtering, commit details, and project member management.",
+  "localizations": {
+    "zh-CN": {
+      "name": "GitLab 管理台",
+      "description": "在 DBX 内浏览 GitLab 项目与代码、评审合并请求、查看流水线并处理 Issue。"
+    }
+  },
+  "targets": [
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/nixing178/dbx-plugin-gitlab/releases/download/v0.2.3/io.github.nixing178.gitlab-0.2.3-windows-x64.dbxp",
+      "sha256": "d062a57144098f996cb737ee23cd382c3ff89eb9d8cb603f9f3e03a43936681c",
+      "size": 4709047
+    }
+  ]
+}
